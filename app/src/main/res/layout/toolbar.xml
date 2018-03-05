@@ -1,0 +1,17 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@android:style/Theme.Material"
+    android:translationZ="4dp"
+    app:titleTextAppearance="@style/MenuTitle"
+    app:subtitleTextAppearance="@style/MenuSubtitle"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    />
